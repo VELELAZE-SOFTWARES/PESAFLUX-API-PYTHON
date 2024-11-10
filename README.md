@@ -15,26 +15,14 @@ For full details on the available API endpoints, parameters, and usage examples,
 You can install the PESAFLUX-API-Python library by manually downloading the code.
 
 1. Download the source code from this repository.
-2. Include the `PesaFluxApi.py` file in your project.
-3. Import and use the required classes as needed.
+2. Include the  files in your project.
+3. Install requests in your computer by executing **pip install requests** on windows
+4.Update your api credentials in the **secure_config.py** file
 
-## Usage
-
-To get started, include the `PesaFluxApi.py` file and initialize the API client.
-
-### Example
+##Usage
 
 ```python
-# Import the PESAFLUX-API-Python library
-from PesaFluxApi import PesaFluxApi
+email = "davidmuvai65@gmail.com"
+api_key = "SFTPCfmqd1G7"
 
-# Initialize the API client with your PESAFLUX credentials
-api = PesaFluxApi('your-username', 'your-api-key')
 
-# Fetch account details
-response = api.get_account_details()
-
-if response['status'] == 'success':
-    print('Account Name:', response['data']['account_name'])
-else:
-    print('Error:', response['message'])
