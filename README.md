@@ -22,6 +22,7 @@ You can install the PESAFLUX-API-Python library by manually downloading the code
 ## Example 
 
 ```python
+
 #secure_config.py
 email = "davidmuvai65@gmail.com"
 api_key = "SFTPCfmqd1G7"
