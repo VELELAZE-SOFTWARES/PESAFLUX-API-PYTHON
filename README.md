@@ -16,8 +16,8 @@ You can install the PESAFLUX-API-Python library by manually downloading the code
 
 1. Download the source code from this repository.
 2. Include the  files in your project.
-3. Install requests in your computer by executing **pip install requests** on windows
-4.Update your api credentials in the **secure_config.py** file
+3. Install requests in your computer by executing **pip install requests** on windows.
+4. Update your api credentials in the **secure_config.py** file.
 
 ## Usage
 
