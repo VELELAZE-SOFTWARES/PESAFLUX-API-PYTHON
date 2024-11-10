@@ -19,7 +19,7 @@ You can install the PESAFLUX-API-Python library by manually downloading the code
 3. Install requests in your computer by executing **pip install requests** on windows
 4.Update your api credentials in the **secure_config.py** file
 
-##Usage
+## Usage
 
 ```python
 email = "davidmuvai65@gmail.com"
