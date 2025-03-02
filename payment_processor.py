@@ -6,7 +6,7 @@ import json
 import requests
 
 def make_payment(api_key, email, amount, msisdn, reference):
-    url = 'https://velelazesoftwares.co.ke/api/initiatestk'
+    url = 'https://api.pesaflux.co.ke/v1/initiatestk'
     payload = {
         "api_key": api_key,
         "email": email,
@@ -25,7 +25,7 @@ def make_payment(api_key, email, amount, msisdn, reference):
   
   
 def verify_payment(api_key, email, transaction_request_id):
-    url = 'https://velelazesoftwares.co.ke/api/transactionstatus'
+    url = 'https://api.pesaflux.co.ke/v1/transactionstatus'
     payload = {
         "api_key": api_key,
         "email": email,
